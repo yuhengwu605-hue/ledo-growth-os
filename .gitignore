@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+
+# Local environment secrets
+.env
+.env.local
+.env.*.local
+
+# Runtime logs and local tool caches
+*.log
+*.detached.err
+.npm-cache/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
